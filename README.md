@@ -3,6 +3,7 @@ turnout
 Predicting individual-level voting behavior with neural nets and HMM clustering
 
 1) train HMM on sample (parallelized)
+<br>
 2) score all obs on HMM, rank by log likelihood (not parallel yet, unfortunately)
 3) split obs into ~10 clusters based on log likelihood ranking
 4) Train separate RNN's for each cluster, using sequential data exclusively (parallelized)
