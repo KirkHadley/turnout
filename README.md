@@ -17,8 +17,8 @@ Predicting individual-level voting behavior with neural nets and HMM clustering
 7. Pass respective outputs from RNN and FFNN to a single-hidden-layered FFNN to ensemble intelligently
 <br>
 8. To test:
-    -Pass test data to HMM, calculate log likelihood, rank and cluster
-    <br>
+    *Pass test data to HMM, calculate log likelihood, rank and cluster
+    
           *Pass sequential data to appropriate RNN (RNN that belongs to the individual's cluster), get out predictions
           *Pass all individuals data to FFNN, get out predictions
           *Pass predictions from RNN and FFNN to ensembler
